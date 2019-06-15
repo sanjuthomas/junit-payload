@@ -1,0 +1,17 @@
+plugins {
+    id 'java'
+}
+
+group 'com.sanjuthomas'
+version '1.0-SNAPSHOT'
+
+sourceCompatibility = 1.8
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    compile 'pl.pragmatists:JUnitParams:1.1.1'
+    compile group: 'org.codehaus.jackson', name: 'jackson-mapper-asl', version: '1.9.13'
+}

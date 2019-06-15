@@ -1,0 +1,4 @@
+rootProject.name = 'test-lib'
+include 'common'
+include 'sandbox'
+
